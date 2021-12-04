@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:src="@drawable/my_mate" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="572dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="당신의 성향은"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="318dp"
+            android:layout_height="50dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="입니다."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/character_view"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:paddingBottom="30dp"
+            app:srcCompat="@drawable/character1" />
+
+
+        <Button
+            android:id="@+id/btn_add_info"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_login"
+            android:backgroundTint="@color/main"
+            android:text="추가 정보 입력하기"
+            android:textColor="#ffffff"
+            app:backgroundTint="#8E95D9" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>

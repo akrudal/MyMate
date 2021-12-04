@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="noise">
+        <item>있다</item>
+        <item>없다</item>
+    </string-array>
+
+    <string-array name="smoke">
+        <item>한다</item>
+        <item>안 한다</item>
+    </string-array>
+
+    <string-array name="shower">
+        <item>아침에</item>
+        <item>저녁에</item>
+        <item>새벽에</item>
+    </string-array>
+
+    <string-array name="clean">
+        <item>주 0회</item>
+        <item>주 1회</item>
+        <item>주 2회</item>
+        <item>주 3회 이상</item>
+    </string-array>
+
+</resources>

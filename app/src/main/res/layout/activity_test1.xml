@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:src="@drawable/my_mate" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="572dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="나의 성향 TEST"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="질문 여섯 가지 중 자신이 가장 중요하게 생각하는 문항 한 가지를 터치해주세요." />
+
+        <RadioGroup
+            android:id="@+id/question_page1_123"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 나는 잠귀가 밝은 편이다."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/question_num1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/a11"
+                            android:layout_width="160dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇다" />
+
+                        <RadioButton
+                            android:id="@+id/a12"
+                            android:layout_width="168dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇지 않다" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <RadioButton
+                android:id="@+id/q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. 나는 집순이다."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/question_num2"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/a21"
+                            android:layout_width="160dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇다" />
+
+                        <RadioButton
+                            android:id="@+id/a22"
+                            android:layout_width="168dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇지 않다" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <RadioButton
+                android:id="@+id/q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.나는 개인의 영역을 중요시한다."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/question_num3"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/a31"
+                            android:layout_width="160dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇다" />
+
+                        <RadioButton
+                            android:id="@+id/a32"
+                            android:layout_width="168dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇지 않다" />
+                    </RadioGroup>
+
+                </TableRow>
+            </TableLayout>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_login"
+            android:text="다음"
+            android:textColor="#ffffff"
+            app:backgroundTint="#8E95D9" />
+
+    </LinearLayout>
+</LinearLayout>

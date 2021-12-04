@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/drawable/msg_line.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_add_info.xml" value="0.264" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_check_message.xml" value="0.135258358662614" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_edit_info.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_login.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_main.xml" value="0.13323201621073963" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_mate_info.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_my_page1_actiivty.xml" value="0.135258358662614" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_my_page2.xml" value="0.135258358662614" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_rating_bar.xml" value="0.135258358662614" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_send_message.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_sign_up.xml" value="0.23505434782608695" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_test1.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_test2.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/activity_test_result.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/fragment_list.xml" value="0.4" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/fragment_my.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/fragment_note.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/recyclerview_item.xml" value="0.1" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/layout/recyclerview_member.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/User/MyMate_Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13703703703703704" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

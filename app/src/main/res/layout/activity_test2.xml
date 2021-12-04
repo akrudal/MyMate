@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:src="@drawable/my_mate" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="572dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="나의 성향 TEST"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question_page2_456"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. 나는 방에서 게임을 즐겨한다."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/question_num4"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/a41"
+                            android:layout_width="160dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="그렇다" />
+
+                        <RadioButton
+                            android:id="@+id/a42"
+                            android:layout_width="168dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇지 않다" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <RadioButton
+                android:id="@+id/q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. 나는 룸메이트와 친해지고 싶다."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/question_num5"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/a51"
+                            android:layout_width="160dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="그렇다" />
+
+                        <RadioButton
+                            android:id="@+id/a52"
+                            android:layout_width="168dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇지 않다" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <RadioButton
+                android:id="@+id/q6"
+                android:layout_width="318dp"
+                android:layout_height="67dp"
+                android:text="6. 나는 룸메이트가 나의 허락을 받고 방에 친구를 데려오는 것은 괜찮다고 생각한다."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/question_num6"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/a61"
+                            android:layout_width="160dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="그렇다" />
+
+                        <RadioButton
+                            android:id="@+id/a62"
+                            android:layout_width="168dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="그렇지 않다" />
+                    </RadioGroup>
+
+                </TableRow>
+            </TableLayout>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_login"
+            android:text="다음"
+            android:textColor="#ffffff"
+            app:backgroundTint="#8E95D9" />
+
+    </LinearLayout>
+</LinearLayout>
